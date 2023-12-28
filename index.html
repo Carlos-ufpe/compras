@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <link rel="icon" href="./assets/icon-192.png">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./dexie.min.js"></script>
+</head>
+<body>
+    <nav>
+        <p> Minhas Compras </p>
+    </nav>
+    <div class="container">
+        <form id="itemForm">
+            <label>
+                Nome do Item:
+                <input type="text" id="nameInput" required>
+            </label>
+            <button type="submit" id="addItemButton">
+                Inserir item
+            </button>
+        </form>
+    </div>
+
+    <div id="itemsDiv">
+        <!-- Foi retirado, pois consta no index.js
+        <div class="item"> (item não-comprado)
+            <label>
+                <input type="checkbox" class="checkbox" checked=false>
+            </label>
+            <div class="itemInfo">
+                <p> Leite </p>
+            </div>
+            <button class="deleteButton">X</button>
+        </div>
+    </div>
+    <div id="itemsDiv">
+        
+        <div class="item purchased">
+            <label>
+                <input type="checkbox" class="checkbox" checked=true>
+            </label>
+            <div class="itemInfo">
+                <p> Leite </p>
+            </div>
+            <button class="deleteButton">X</button>
+        </div> -->
+    </div>
+
+    <!--<div class="clear"> Executar ao clicar
+        <button class="clearAllMarks" id="clearMarks" onclick="clearAll(id)">
+        Limpar
+        </button> 
+    </div>-->
+
+    <script src="./index.js"></script>
+</body>
+</html>
+
+

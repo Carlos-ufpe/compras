@@ -1,0 +1,117 @@
+* {  /*para preencher a tela do mobile*/
+    margin: unset; 
+    padding: unset;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+nav {
+    background: #090080;
+    height: 3rem;
+    line-height: 3rem;
+    color: white;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    padding: 1rem;
+}
+
+#itemForm label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#itemForm input {
+    height: 2rem;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+#addItemButton {
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: #090080;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+#itemsDiv {
+    margin-top: 1.5rem; /* Alterar para 3rem? */
+    margin-bottom: 1.5rem; /* Alterar para 2rem? */
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 2rem; /* Retirar? */
+    background: #eaeaea;
+    margin-bottom: 0.5rem;
+}
+
+.checkbox {
+    height: 100%;
+    width: 2.5rem;
+}
+
+.itemInfo {
+    text-align: center;
+    font-size: 1.2rem; /* Alterar para 1rem? Retirar? */
+    padding-top: 2px; /* Aumentar? */
+}
+
+.deleteButton {
+    margin: 0 0 0 auto;
+    border: unset;
+    background: #b10000;
+    color: #fff;
+    font-size: 1rem;
+    width: 2rem;
+    height: 100%;
+}
+
+.deleteButton:active {
+    margin-top: 3px;
+}
+
+.purchased {
+    background: #00805a;
+    color: #fff;
+}
+
+.purchased p {
+    text-decoration: line-through;
+}
+
+.clear {
+        display: grid;
+        justify-items: center;
+        background: #090080;
+        height: 3rem;
+        margin-bottom: 1rem;
+        padding-left: 2rem;
+        margin-top: 1.5rem; /* Alterar para 3rem? */
+        margin-bottom: 1rem; /* Alterar para 2rem? */
+}
+
+.clearAllMarks {
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: #fff;
+    color: #090080;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 6rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
+.clearAllMark:active {
+    margin-top: 3px;
+}
